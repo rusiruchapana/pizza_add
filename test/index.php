@@ -45,11 +45,11 @@
             //$sql = "insert into pizza_add (email, title, ingredients) values("$email","$title","$ingredients")";
             $sql = "INSERT INTO pizza_add (email, title, ingredients) VALUES ('$email', '$title', '$ingredients')";
     
-            if(mysqli_query($conn, $sql)){
-                //header("Location: index2.php");
-            }else{
-                echo "Correctly not add inputs data" . mysqli_error($conn);
-            }
+            // if(mysqli_query($conn, $sql)){
+            //     //header("Location: index2.php");
+            // }else{
+            //     echo "Correctly not add inputs data" . mysqli_error($conn);
+            // }
         }
     }
 
